@@ -1,0 +1,12 @@
+# Purpose
+That is demonstration on demand validation used in PyPSA-Earth to model Kazakhstan power system
+
+# Data sources
+Outputs of GEGIS for demand predictions are compared against data provided by Kazakhstan Electricity and Power Market Operator (KEGOS).
+
+# How to run
+1. Install R (either as base R https://cran.r-project.org/bin/ or as R Studio https://posit.co/products/open-source/rstudio/)
+2. Run R console in the folder of project. The working folder can be adjusted by `setwd(project_dir)` directly in R session.
+3. In R console 
+    * run `install.packages("tidyverse", "lubridate")` to install R extentions used in further calculations
+    * run a source file with `source("demand_valid.R")`
